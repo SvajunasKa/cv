@@ -4,7 +4,7 @@
           <meta charset="UTF-8">
           <title>Portfolio</title>
           <link rel="shortcut icon" href="">
-          <link type="text/css" href="assets/style/style.css" rel="stylesheet">
+          <link type="text/css" href="assets/style/style.css?v=1.0.0.1" rel="stylesheet">
           <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
