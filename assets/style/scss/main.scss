@@ -1,5 +1,11 @@
 @import "../../../node_modules/bootstrap-sass-grid/sass/bootstrap-sass-grid";
 @import "mixins";
+html{
+  scroll-behavior: smooth;
+}
+.window{
+  display: none;
+}
 #mask {
   position:absolute;
   left:0;
@@ -166,7 +172,7 @@ label {
 }
 
 input {
-  height: 10px;
+  height: 40px;
   width: 100%;
   padding: 0.5em 0.5em;
   font-size: 1.2em;

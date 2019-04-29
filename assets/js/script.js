@@ -9,7 +9,7 @@ $(document).ready(function () {
 
     //transition effect		
     $('#mask').fadeIn(500);
-    $('#mask').fadeTo("slow", 0.9);
+    $('#mask').fadeTo("slow", 0.7);
 
     //Get the window height and width
     var winH = $(window).height();
@@ -113,4 +113,5 @@ $(document).ready(function () {
         $('html, body').animate({scrollTop: 0}, "slow");
         return false;
     });
+
 });
