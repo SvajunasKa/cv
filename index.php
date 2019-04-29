@@ -5,10 +5,9 @@
           <meta charset="UTF-8">
           <title>Portfolio</title>
           <link rel="shortcut icon" href="">
-          <link type="text/css" href="style.css" rel="stylesheet">
+          <link type="text/css" href="assets/style/style.css" rel="stylesheet">
           <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 
      </head>
      <body>
@@ -19,27 +18,34 @@
                     <form  method="get" action="" >
                          <input type="text" name="name" id="namePop" autofocus="">
                     </form>
-                    <div id="popupfoot"> <button  class="close" id="text" >Užeikite</button></div> 
+                    <div id="popupfoot">
+                        <button  class="close" id="text" >Užeikite</button>
+                    </div>
                </div>
                <div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
           </div>
           <!-- ---------------------- Paralax-------------------------- -->
           <div class="bgimg-1">
-               <div class="caption">
-                    <span class="border" id="showName"> 
+              <div class="container">
+                  <div class="caption">
+                    <span class="border" id="showName">
                     </span><br>
-                    <span class="border">Malonu, kad užsukote!</span>
-               </div>
+                      <span class="border">Malonu, kad užsukote!</span>
+                  </div>
+              </div>
+
           </div>
           <div style="color: #ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-               <h3 style="text-align:center;color: whitesmoke">Sveiki, mano vardas Svajūnas</h3>
-               <p>
-                    Esu Kauno informacinių technologijų mokyklos, žiniatinklio programuotojo specialybės mokinys.
-                    Moku HTML, CSS, turiu JavaScript ir PhP programavimo pradmenis. 
-                    Noriu pagilinti esamas žinias ir įgauti naujų įgūdžių darbe prie realių projektų, todėl kreipiuosi dėl galimybės atlikti praktiką Jūsų įmonėje. 
-                    Esu atsakingas, žingeidus, komunikabilus, sugebu dirbti komandoje ir individualiai.
-                    Nebijau naujovių, iššūkių ir pokyčių. Dėl šių asmeninių savybių ir besikeičiančių darbo rinkos poreikių nusprendžiau keisti elektros inžinieriaus kvalifikaciją į žiniatinklio programuotojo.
-               </p>
+              <div class="container">
+                  <h3 style="text-align:center;color: whitesmoke">Sveiki, mano vardas Svajūnas</h3>
+                  <p>
+                      Esu Kauno informacinių technologijų mokyklos, žiniatinklio programuotojo specialybės mokinys.
+                      Moku HTML, CSS, turiu JavaScript ir PhP programavimo pradmenis.
+                      Noriu pagilinti esamas žinias ir įgauti naujų įgūdžių darbe prie realių projektų, todėl kreipiuosi dėl galimybės atlikti praktiką Jūsų įmonėje.
+                      Esu atsakingas, žingeidus, komunikabilus, sugebu dirbti komandoje ir individualiai.
+                      Nebijau naujovių, iššūkių ir pokyčių. Dėl šių asmeninių savybių ir besikeičiančių darbo rinkos poreikių nusprendžiau keisti elektros inžinieriaus kvalifikaciją į žiniatinklio programuotojo.
+                  </p>
+              </div>
           </div>
           <div class="bgimg-2"></div>
           <div style="position:relative;">
@@ -53,7 +59,7 @@
           </div>
           <div class="bgimg-3"></div>
           <div style="position:relative;">
-               <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+               <div style="color:#ddd; background-color:#282E34; text-align:center;padding:50px 80px; text-align: justify;">
                     <h3 style="text-align:center; color: whitesmoke">Darbo patirtis</h3>
                     <h4>Nuo 2010m. vasario. iki 2015m. gruodžio mėn</h4>
                     <p>Dirbau AB"Vilniaus paukštynas" inžinieriaus pozicijoje. Buvau atsakingas už paukštidžių mikroklimato parametrų palaikymą, elektroninės/kompiuterinės
@@ -107,14 +113,6 @@
                </div>
           </div>
 
-          <!--
-                         <div class="bgimg-4">
-                              <div class="caption">
-                                   <span class="border">Buvo malonu susipažinti!</span> <br> 
-          
-                              </div>
-                         </div>
-          -->
-          <script src="script.js" ></script>
+          <script src="assets/js/script.js" ></script>
      </body>
 </html>
